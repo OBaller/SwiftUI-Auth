@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		B4C4886326EFFB0E00358D1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4886226EFFB0E00358D1B /* ContentView.swift */; };
 		B4C4886526EFFB1400358D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C4886426EFFB1400358D1B /* Assets.xcassets */; };
 		B4C4886826EFFB1400358D1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C4886726EFFB1400358D1B /* Preview Assets.xcassets */; };
+		B4C4887026F0081C00358D1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4C4886F26F0081B00358D1B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B4C4886426EFFB1400358D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4C4886726EFFB1400358D1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4C4886926EFFB1400358D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C4886F26F0081B00358D1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,6 @@
 				67E80038D757FD36CE074BD7 /* Pods-SwiftUIAuth.debug.xcconfig */,
 				4A3E92F96EA6FC104B542098 /* Pods-SwiftUIAuth.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +82,7 @@
 				B4C4886226EFFB0E00358D1B /* ContentView.swift */,
 				B4C4886426EFFB1400358D1B /* Assets.xcassets */,
 				B4C4886926EFFB1400358D1B /* Info.plist */,
+				B4C4886F26F0081B00358D1B /* GoogleService-Info.plist */,
 				B4C4886626EFFB1400358D1B /* Preview Content */,
 			);
 			path = SwiftUIAuth;
@@ -155,6 +157,7 @@
 			files = (
 				B4C4886826EFFB1400358D1B /* Preview Assets.xcassets in Resources */,
 				B4C4886526EFFB1400358D1B /* Assets.xcassets in Resources */,
+				B4C4887026F0081C00358D1B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

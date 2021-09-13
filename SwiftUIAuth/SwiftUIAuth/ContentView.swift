@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  SwiftUIAuth
 //
-//  Created by IBE on 13/09/2021.
+//  Created by naseem on 13/09/2021.
 //
 
 import SwiftUI
