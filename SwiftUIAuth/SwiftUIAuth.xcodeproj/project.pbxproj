@@ -13,6 +13,7 @@
 		B4C4886526EFFB1400358D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C4886426EFFB1400358D1B /* Assets.xcassets */; };
 		B4C4886826EFFB1400358D1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4C4886726EFFB1400358D1B /* Preview Assets.xcassets */; };
 		B4C4887026F0081C00358D1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4C4886F26F0081B00358D1B /* GoogleService-Info.plist */; };
+		B4C4887226F0149A00358D1B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4887126F0149900358D1B /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B4C4886726EFFB1400358D1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4C4886926EFFB1400358D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4C4886F26F0081B00358D1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B4C4887126F0149900358D1B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				B4C4886926EFFB1400358D1B /* Info.plist */,
 				B4C4886F26F0081B00358D1B /* GoogleService-Info.plist */,
 				B4C4886626EFFB1400358D1B /* Preview Content */,
+				B4C4887126F0149900358D1B /* ViewModel.swift */,
 			);
 			path = SwiftUIAuth;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4C4886326EFFB0E00358D1B /* ContentView.swift in Sources */,
+				B4C4887226F0149A00358D1B /* ViewModel.swift in Sources */,
 				B4C4886126EFFB0E00358D1B /* SwiftUIAuthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
