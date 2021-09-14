@@ -18,20 +18,26 @@ class AppViewModel: ObservableObject {
     }
     
     func signIn(email: String, password: String) {
-        auth.signIn(withEmail: email, password: password) { (result, error) in
+        auth.signIn(withEmail: email, password: password) { [weak self] (result, error) in
             guard result != nil, error == nil else {
                 return
             }
             // success
+            DispatchQueue.main.async {
+                self?.signedIn = true
+            }
         }
     }
     
     func signUp(email: String, password: String) {
-        auth.createUser(withEmail: email, password: password) { (result, error) in
+        auth.createUser(withEmail: email, password: password) { [weak self] (result, error) in
             guard result != nil, error == nil else {
                 return
             }
             // success
+            DispatchQueue.main.async {
+                self?.signedIn = true
+            }
         }
     }
 }
